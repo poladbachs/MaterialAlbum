@@ -30,6 +30,11 @@ export default function App() {
                                         See my photos
                                     </Button>
                                 </Grid2>
+                                <Grid2 item>
+                                    <Button variant="outlined" color="primary">
+                                        Secondary action
+                                    </Button> 
+                                </Grid2>
                             </Grid2>
                         </div>
                     </Container>
