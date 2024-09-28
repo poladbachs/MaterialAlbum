@@ -1,4 +1,4 @@
-import { Typography, AppBar, Card, CardActions, CardContent, CardMedia, CssBaseline, Grid, Toolbar, Container } from '@mui/material';
+import { Typography, AppBar, Button, Card, CardActions, CardContent, CardMedia, CssBaseline, Grid2, Toolbar, Container } from '@mui/material';
 import { PhotoCamera } from '@mui/icons-material';
 
 export default function App() {
@@ -23,6 +23,11 @@ export default function App() {
                         <Typography variant="h5" align="center" color="textSecondary" component="p">
                         A visually engaging photo album application developed using MUI 5 (Material UI), showcasing a seamless user experience for organizing and viewing your favorite memories.
                         </Typography>
+                        <div>
+                            <Grid2 container spacing={2} justify="center">
+                                
+                            </Grid2>
+                        </div>
                     </Container>
                 </div>
             </main>
