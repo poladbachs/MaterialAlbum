@@ -20,6 +20,9 @@ export default function App() {
                         <Typography variant="h2" align="center" color="textPrimary" gutterBottom>
                             Photo Album
                         </Typography>
+                        <Typography variant="h5" align="center" color="textSecondary" component="p">
+                        A visually engaging photo album application developed using MUI 5 (Material UI), showcasing a seamless user experience for organizing and viewing your favorite memories.
+                        </Typography>
                     </Container>
                 </div>
             </main>
