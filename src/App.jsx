@@ -6,6 +6,9 @@ export default function App() {
         <>
             <CssBaseline/>
             <AppBar position='relative'>
+                <Toolbar>
+                    <PhotoCamera />
+                </Toolbar>
             </AppBar>
         </>
     )
