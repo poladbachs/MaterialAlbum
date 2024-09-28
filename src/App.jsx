@@ -3,8 +3,10 @@ import PhotoCamera from '@mui/icons-material/PhotoCamera';
 
 export default function App() {
     return (
-        <div>
-            <Typography variant="h1">Hello, World!</Typography>
-        </div>
+        <>
+            <CssBaseline/>
+            <AppBar position='relative'>
+            </AppBar>
+        </>
     )
 }
