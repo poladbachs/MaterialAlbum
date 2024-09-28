@@ -1,7 +1,14 @@
 import { Typography, AppBar, Button, Card, CardActions, CardContent, CardMedia, CssBaseline, Grid2, Toolbar, Container } from '@mui/material';
 import { PhotoCamera } from '@mui/icons-material';
 
+import { makeStyles } from '@mui/material';
+
+const useStyles = makeStyles((theme) => ({
+    
+}))
+
 export default function App() {
+    const classes = useStyles();
     return (
         <>
             <CssBaseline/>
