@@ -1,14 +1,9 @@
 import { Typography, AppBar, Button, Card, CardActions, CardContent, CardMedia, CssBaseline, Grid2, Toolbar, Container } from '@mui/material';
 import { PhotoCamera } from '@mui/icons-material';
 
-import { makeStyles } from '@mui/material';
-
-const useStyles = makeStyles((theme) => ({
-    
-}))
+import { StyledContainer } from './styles';
 
 export default function App() {
-    const classes = useStyles();
     return (
         <>
             <CssBaseline/>
@@ -22,7 +17,7 @@ export default function App() {
             </AppBar> 
 
             <main>
-                <div>
+                <StyledContainer>
                     <Container maxWidth="sm">
                         <Typography variant="h2" align="center" color="text.primary" gutterBottom>
                             Photo Album
@@ -45,7 +40,7 @@ export default function App() {
                             </Grid2>
                         </div>
                     </Container>
-                </div>
+                </StyledContainer>
             </main>
         </>
     )
