@@ -3,7 +3,7 @@ import { Typography } from '@mui/material';
 export default function App() {
     return (
         <div>
-            <Typography>Hello, World!</Typography>
+            <Typography variant="h1">Hello, World!</Typography>
         </div>
     )
 }
