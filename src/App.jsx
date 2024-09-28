@@ -25,7 +25,11 @@ export default function App() {
                         </Typography>
                         <div>
                             <Grid2 container spacing={2} justify="center">
-                                
+                                <Grid2 item>
+                                    <Button variant="contained" color="primary">
+                                        See my photos
+                                    </Button>
+                                </Grid2>
                             </Grid2>
                         </div>
                     </Container>
