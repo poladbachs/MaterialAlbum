@@ -1,6 +1,6 @@
 import { Typography, AppBar, Button, Card, CardActions, CardContent, CardMedia, CssBaseline, Grid2, Toolbar, Container } from '@mui/material';
 
-import { StyledContainer, StyledIcon, StyledButton, CardGrid } from './styles';
+import { StyledContainer, StyledIcon, StyledButton, CardGrid, StyledCardMedia } from './styles';
 
 export default function App() {
     return (
@@ -44,8 +44,8 @@ export default function App() {
                     <Grid2 container spacing={4}>
                         <Grid2 item>
                             <Card>
-                                <CardMedia
-                                    image="https://source.unslash.com/random"
+                                <StyledCardMedia
+                                    image="https://dec-energy.ch/images/mountain-pv.jpeg"
                                     title="Image Title"
                                 />
                                 <CardContent>
