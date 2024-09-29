@@ -1,6 +1,6 @@
 import { Typography, AppBar, Button, Card, CardActions, CardContent, CardMedia, CssBaseline, Grid2, Toolbar, Container } from '@mui/material';
 
-import { StyledContainer, StyledIcon, StyledButton, CardGrid, StyledCardMedia } from './styles';
+import { StyledContainer, StyledIcon, StyledButton, CardGrid, StyledCardMedia, StyledCardContent } from './styles';
 
 export default function App() {
     return (
@@ -48,14 +48,14 @@ export default function App() {
                                     image="https://dec-energy.ch/images/mountain-pv.jpeg"
                                     title="Image Title"
                                 />
-                                <CardContent>
+                                <StyledCardContent>
                                     <Typography gutterBottom variant="h5">
                                         Heading
                                     </Typography>
                                     <Typography>
                                         This is a media card. Use this section to describe the content.
                                     </Typography>
-                                </CardContent>
+                                </StyledCardContent>
                                 <CardActions>
                                     <Button size="small" color="primary">View</Button>
                                     <Button size="small" color="primary">Edit</Button>
