@@ -1,15 +1,15 @@
 import { Typography, AppBar, Button, Card, CardActions, CardContent, CardMedia, CssBaseline, Grid2, Toolbar, Container } from '@mui/material';
 import { PhotoCamera } from '@mui/icons-material';
 
-import { StyledContainer } from './styles';
+import { StyledContainer, StyledIcon } from './styles';
 
 export default function App() {
     return (
-        <>
+        <> 
             <CssBaseline/>
             <AppBar position='relative'>
                 <Toolbar>
-                    <PhotoCamera />
+                    <StyledIcon/>
                     <Typography variant="h6">
                         Photo Album
                     </Typography>
