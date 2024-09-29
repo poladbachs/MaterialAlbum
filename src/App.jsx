@@ -1,4 +1,4 @@
-import { Typography, AppBar, Button, Card, CardActions, CardContent, CardMedia, CssBaseline, Grid2, Toolbar, Container } from '@mui/material';
+import { Typography, AppBar, Button, Card, CardActions, CssBaseline, Grid, Toolbar, Container } from '@mui/material';
 
 import { StyledContainer, StyledIcon, StyledButton, CardGrid, StyledCardMedia, StyledCardContent } from './styles';
 
@@ -24,28 +24,28 @@ export default function App() {
                             Photo Album
                         </Typography>
                         <Typography variant="h5" align="center" color="text.secondary" component="p">
-                            A visually engaging photo album application developed using MUI 5 (Material UI), showcasing a seamless user experience for organizing and viewing your favorite memories.
+                            A sample photo album template built with MUI 5 (Material UI) to demonstrate the usage of components, custom styling, and responsive layouts. This project is designed as a hands-on practice to explore Material UI's capabilities for building engaging user interfaces.
                         </Typography>
                         <div>
-                            <Grid2 container spacing={2} justifyContent="center">
-                                <Grid2 item>
+                            <Grid container spacing={2} justifyContent="center">
+                                <Grid item>
                                     <StyledButton variant="contained" color="primary">
                                         See my photos
                                     </StyledButton>
-                                </Grid2>
-                                <Grid2 item>
+                                </Grid>
+                                <Grid item>
                                     <StyledButton variant="outlined" color="primary">
                                         Secondary action
                                     </StyledButton>
-                                </Grid2>
-                            </Grid2>
+                                </Grid>
+                            </Grid>
                         </div>
                     </Container>
                 </StyledContainer>
                 <CardGrid maxWidth="md">
-                    <Grid2 container spacing={4}>
-                        {cards.map(() => (
-                            <Grid2 item>
+                    <Grid container spacing={4}>
+                        {cards.map((card) => (
+                            <Grid item key={card} xs={12} sm={8} md={4}>
                                 <Card>
                                     <StyledCardMedia
                                         image="https://dec-energy.ch/images/mountain-pv.jpeg"
@@ -64,9 +64,9 @@ export default function App() {
                                         <Button size="small" color="primary">Edit</Button>
                                     </CardActions>
                                 </Card>
-                            </Grid2>
+                            </Grid>
                         ))}
-                    </Grid2>
+                    </Grid>
                 </CardGrid>
             </main>
         </>
