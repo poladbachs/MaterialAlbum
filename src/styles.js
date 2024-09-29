@@ -1,4 +1,4 @@
-import { Typography, AppBar, Button, Card, CardActions, CardContent, CardMedia, Grid2, Toolbar, Container } from '@mui/material';
+import { Button, Card, CardContent, CardMedia, Grid, Container } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import { PhotoCamera } from '@mui/icons-material';
 
