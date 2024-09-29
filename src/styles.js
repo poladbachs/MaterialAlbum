@@ -1,4 +1,4 @@
-import { Button, Card, CardContent, CardMedia, Grid, Container } from '@mui/material';
+import { Button, Card, CardContent, CardMedia, Grid, Container, Box } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import { PhotoCamera } from '@mui/icons-material';
 
@@ -31,4 +31,9 @@ export const StyledCardMedia = styled(CardMedia)(({ theme }) => ({
 
 export const StyledCardContent = styled(CardContent)(({ theme }) => ({
     flexGrow: '1'
+}));
+
+export const StyledFooter = styled(Box)(({ theme }) => ({
+    backgroundColor: theme.palette.background.paper,
+    padding: '50px 0',
 }));
