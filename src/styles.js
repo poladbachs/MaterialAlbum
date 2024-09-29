@@ -1,4 +1,4 @@
-import { Typography, AppBar, Button, Card, CardActions, CardContent, CardMedia, CssBaseline, Grid2, Toolbar, Container } from '@mui/material';
+import { Typography, AppBar, Button, Card, CardActions, CardContent, CardMedia, Grid2, Toolbar, Container } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import { PhotoCamera } from '@mui/icons-material';
 
@@ -26,9 +26,9 @@ export const StyledCard = styled(Card)(({ theme }) => ({
 }));
 
 export const StyledCardMedia = styled(CardMedia)(({ theme }) => ({
-
+    paddingTop: '56.25%' // 16:9 dim
 }));
 
 export const StyledCardContent = styled(CardContent)(({ theme }) => ({
-
+    flexGrow: '1'
 }));

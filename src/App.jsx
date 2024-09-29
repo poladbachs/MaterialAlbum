@@ -1,6 +1,6 @@
 import { Typography, AppBar, Button, Card, CardActions, CardContent, CardMedia, CssBaseline, Grid2, Toolbar, Container } from '@mui/material';
 
-import { StyledContainer, StyledIcon, StyledButton } from './styles';
+import { StyledContainer, StyledIcon, StyledButton, CardGrid } from './styles';
 
 export default function App() {
     return (
@@ -40,7 +40,7 @@ export default function App() {
                         </div>
                     </Container>
                 </StyledContainer>
-                <Container maxWidth="md">
+                <CardGrid maxWidth="md">
                     <Grid2 container spacing={4}>
                         <Grid2 item>
                             <Card>
@@ -63,7 +63,7 @@ export default function App() {
                             </Card>
                         </Grid2>
                     </Grid2>
-                </Container>
+                </CardGrid>
             </main>
         </>
     )
