@@ -1,8 +1,8 @@
-# React MaterialUI 5 Photo Album
+# React MaterialUI Photo Album
 
 ## Project Overview
 
-**React MUI 5 Photo Album** is a photo album web application built using **React.js**, **Material UI 5**, and **Emotion Library**. The application showcases the use of Material UI components to create a responsive and engaging user interface. Users can view a collection of photo cards with descriptions and action button components. This project serves as a practical demonstration of how I utilized Material UI 5 for building modern web applications.
+**React MUI Photo Album** is a photo album web application built using **React.js**, **Material UI 5**, and **Emotion Library**. The application showcases the use of Material UI components to create a responsive and engaging user interface. Users can view a collection of photo cards with descriptions and action button components. This project serves as a practical demonstration of how I utilized Material UI 5 for building modern web applications.
 
 ## Demo
 
