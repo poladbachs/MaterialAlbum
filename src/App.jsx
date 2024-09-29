@@ -44,7 +44,17 @@ export default function App() {
                 <Container maxWidth="md">
                     <Grid2 container spacing={4}>
                         <Grid2 item>
-                            
+                            <Card>
+                                <CardMedia
+                                    image="https://source.unslash.com/random"
+                                    title="Image Title"
+                                />
+                                <CardContent>
+                                    <Typography gutterBottom variant="h5">
+                                        
+                                    </Typography>
+                                </CardContent>
+                            </Card>
                         </Grid2>
                     </Grid2>
                 </Container>
