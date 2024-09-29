@@ -1,6 +1,6 @@
 import { Typography, AppBar, Button, Card, CardActions, CssBaseline, Grid, Toolbar, Container } from '@mui/material';
 
-import { StyledContainer, StyledIcon, StyledButton, CardGrid, StyledCardMedia, StyledCardContent } from './styles';
+import { StyledContainer, StyledIcon, StyledButton, CardGrid, StyledCardMedia, StyledCardContent, StyledFooter } from './styles';
 
 const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 
@@ -45,7 +45,7 @@ export default function App() {
                 <CardGrid maxWidth="md">
                     <Grid container spacing={4}>
                         {cards.map((card) => (
-                            <Grid item key={card} xs={12} sm={8} md={4}>
+                            <Grid item key={card} xs={12} sm={6} md={4}>
                                 <Card>
                                     <StyledCardMedia
                                         image="https://dec-energy.ch/images/mountain-pv.jpeg"
@@ -69,6 +69,11 @@ export default function App() {
                     </Grid>
                 </CardGrid>
             </main>
+            <StyledFooter>
+                <Typography variant="h6" color="text.secondary" align="center" gutterBottom>
+                    © 2024 Bachs Enterprises. All rights reserved.
+                </Typography>
+            </StyledFooter>
         </>
     )
 }
