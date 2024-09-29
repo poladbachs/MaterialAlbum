@@ -12,5 +12,5 @@ export const StyledIcon = styled(PhotoCamera)(({ theme }) => ({
 }));
 
 export const StyledButton = styled(Button)(({ theme }) => ({
-    marginTop: theme.spacing(2),
+    marginTop: theme.spacing(3),
 }));

@@ -41,6 +41,13 @@ export default function App() {
                         </div>
                     </Container>
                 </StyledContainer>
+                <Container maxWidth="md">
+                    <Grid2 container spacing={4}>
+                        <Grid2 item>
+                            
+                        </Grid2>
+                    </Grid2>
+                </Container>
             </main>
         </>
     )
