@@ -8,7 +8,7 @@
 
 A demo video is included to showcase the core features of the **React MUI Photo Album** app. The demo highlights the layout, styling, and structure of the photo album across all major devices.
 
-![MaterialAlbum](https://github.com/user-attachments/assets/b459e94b-bcfb-47b6-a872-a98efb080122)
+![MaterialAlbum](https://github.com/user-attachments/assets/b619c45e-8b1e-494f-a5b5-f421b6130bd5)
 
 ## Features
 
