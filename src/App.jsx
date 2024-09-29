@@ -51,9 +51,16 @@ export default function App() {
                                 />
                                 <CardContent>
                                     <Typography gutterBottom variant="h5">
-                                        
+                                        Heading
+                                    </Typography>
+                                    <Typography>
+                                        This is a media card. Use this section to describe the content.
                                     </Typography>
                                 </CardContent>
+                                <CardActions>
+                                    <Button size="small" color="primary">View</Button>
+                                    <Button size="small" color="primary">Edit</Button>
+                                </CardActions>
                             </Card>
                         </Grid2>
                     </Grid2>
