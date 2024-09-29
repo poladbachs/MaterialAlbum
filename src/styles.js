@@ -16,11 +16,13 @@ export const StyledButton = styled(Button)(({ theme }) => ({
 }));
 
 export const CardGrid = styled(Container)(({ theme }) => ({
-
+    padding: '20px 0'
 }));
 
 export const StyledCard = styled(Card)(({ theme }) => ({
-
+    height: '100%',
+    display: 'flex',
+    flexDirection: 'column'
 }));
 
 export const StyledCardMedia = styled(CardMedia)(({ theme }) => ({
