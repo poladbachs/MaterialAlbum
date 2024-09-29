@@ -9,5 +9,8 @@ export const StyledContainer = styled(Container)(({ theme }) => ({
 
 export const StyledIcon = styled(PhotoCamera)(({ theme }) => ({
     marginRight: theme.spacing(3),
+}));
 
+export const StyledButton = styled(Button)(({ theme }) => ({
+    marginTop: theme.spacing(2),
 }));
