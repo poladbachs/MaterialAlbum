@@ -14,3 +14,19 @@ export const StyledIcon = styled(PhotoCamera)(({ theme }) => ({
 export const StyledButton = styled(Button)(({ theme }) => ({
     marginTop: theme.spacing(3),
 }));
+
+export const CardGrid = styled(Container)(({ theme }) => ({
+
+}));
+
+export const StyledCard = styled(Card)(({ theme }) => ({
+
+}));
+
+export const StyledCardMedia = styled(CardMedia)(({ theme }) => ({
+
+}));
+
+export const StyledCardContent = styled(CardContent)(({ theme }) => ({
+
+}));
